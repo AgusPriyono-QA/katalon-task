@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DataDynamic</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>999855bc-f54f-40da-94e0-8269947b2587</testSuiteGuid>
+   <testCaseLink>
+      <guid>91af6757-ebc8-4171-8b69-bf4e951d81c1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>'aguspri1993@gmail.com'</defaultValue>
+         <description></description>
+         <id>12130706-917d-4523-8315-7d5cfae1ff44</id>
+         <masked>false</masked>
+         <name>email</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/PostNewUser</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e309e2c1-c9d2-4567-aad6-12b1c2c88ffe</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ListNewUser</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e309e2c1-c9d2-4567-aad6-12b1c2c88ffe</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>56c0cfbb-2dcc-4374-868e-8bd8d0f495f8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e309e2c1-c9d2-4567-aad6-12b1c2c88ffe</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>12130706-917d-4523-8315-7d5cfae1ff44</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
